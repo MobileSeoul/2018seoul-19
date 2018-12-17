@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">서울 이야기</string>
+    <string name="title_news">새 소식</string>
+    <string name="title_star">관심소식</string>
+    <string name="title_search">검색</string>
+    <string name="title_setting">설정</string>
+    <string name="search_name">탐색</string>
+    <string name="search_hint">검색어를 입력하세요.</string>
+    <string name="cancel_button">취소</string>
+    <string name="star_edit_ordered">수정되었습니다.</string>
+    <string name="star_fail_edit_ordered">잠시 후 다시 시도해주세요.</string>
+    <string name="star_more_search">더 많은 관심분야 탐색</string>
+    <string name="star_more_detail">관심 분야를 팔로우하여 내 소식에서 읽으세요. 그러면 개인 맞춤식 소식 환경을 제공해 드리는 데 도움이 됩니다.</string>
+
+    <string name="category_title_welfare">복지</string>
+    <string name="category_title_woman">여성</string>
+    <string name="category_title_economy">경제</string>
+    <string name="category_title_safe">안전</string>
+    <string name="category_title_citybuild">주택</string>
+    <string name="category_title_env">환경</string>
+    <string name="category_title_sculture">문화</string>
+    <string name="category_title_health">건강</string>
+    <string name="category_title_traffic">교통</string>
+    <string name="category_title_infra">건설</string>
+    <string name="category_title_finance">세금</string>
+    <string name="category_title_gov">행정</string>
+
+    <string name="category_title_en_welfare">welfare</string>
+    <string name="category_title_en_woman">woman</string>
+    <string name="category_title_en_economy">economy</string>
+    <string name="category_title_en_safe">safe</string>
+    <string name="category_title_en_citybuild">citybuild</string>
+    <string name="category_title_en_env">env</string>
+    <string name="category_title_en_sculture">sculture</string>
+    <string name="category_title_en_health">health</string>
+    <string name="category_title_en_traffic">traffic</string>
+    <string name="category_title_en_infra">infra</string>
+    <string name="category_title_en_finance">finance</string>
+    <string name="category_title_en_gov">gov</string>
+
+    <string name="window_state_news_root">news_root</string>
+    <string name="window_state_star_root">star_root</string>
+    <string name="window_state_search_root">search_root</string>
+    <string name="window_state_setting_root">setting_root</string>
+    <string name="window_state_news_children">news_children</string>
+    <string name="window_state_search_child">search_child</string>
+</resources>

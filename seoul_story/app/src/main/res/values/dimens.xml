@@ -1,0 +1,33 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="row_searchlist_height">50dp</dimen>
+    <dimen name="row_searchlist_padding">5dp</dimen>
+    <dimen name="favorite_grid_margin">16dp</dimen>
+    <dimen name="favorite_star_padding">4dp</dimen>
+    <dimen name="favorite_star_spacing">4dip</dimen>
+    <dimen name="favorite_img_size">60dip</dimen>
+    <dimen name="favorite_btn_margin">2dip</dimen>
+    <dimen name="favorite_linear_margin">10dip</dimen>
+    <dimen name="favorite_linear_padding">5dip</dimen>
+    <dimen name="news_card_item_image_height">200dip</dimen>
+    <dimen name="news_card_item_blank_image_height">0dip</dimen>
+    <dimen name="news_card_margin">10dp</dimen>
+    <dimen name="news_tab_min_width">90dp</dimen>
+    <dimen name="news_list_divider_height">4dp</dimen>
+    <dimen name="news_padding_bottom">10dip</dimen>
+    <dimen name="news_category_margin">10dp</dimen>
+    <dimen name="news_category_width">100dp</dimen>
+    <dimen name="card_item_image_heigth">140dip</dimen>
+
+    <dimen name="search_name_font_size">18sp</dimen>
+    <dimen name="row_searchlist_font_size">20sp</dimen>
+    <dimen name="favorite_title_size">20sp</dimen>
+    <dimen name="news_card_item_category_font">15sp</dimen>
+    <dimen name="news_card_item_date_font">15sp</dimen>
+    <dimen name="news_card_item_news_font">22sp</dimen>
+    <dimen name="news_category_font">18sp</dimen>
+
+
+</resources>

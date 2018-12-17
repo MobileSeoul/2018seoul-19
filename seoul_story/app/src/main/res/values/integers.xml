@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="column_horizontal">5</integer>
+    <integer name="column_vertical">3</integer>
+    <integer name="star_grid_weight">3</integer>
+    <integer name="star_linear_weight">7</integer>
+    <integer name="news_text_weight">1</integer>
+</resources>

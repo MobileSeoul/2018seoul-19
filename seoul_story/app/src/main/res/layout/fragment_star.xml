@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:gravity="center_horizontal"
+            android:text="@string/title_star"
+            android:textSize="@dimen/favorite_title_size"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/favorite_linear_padding"
+            android:layout_weight="@integer/star_linear_weight"
+            >
+
+            <org.askerov.dynamicgrid.DynamicGridView
+                android:id="@+id/star_gridView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:verticalSpacing="@dimen/favorite_star_spacing"
+                android:horizontalSpacing="@dimen/favorite_star_spacing"
+                android:stretchMode="columnWidth"
+                android:gravity="center"
+                android:numColumns="@integer/column_vertical"
+                android:layout_weight="@integer/star_grid_weight"
+                >
+            </org.askerov.dynamicgrid.DynamicGridView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/colorWhite"
+                android:layout_marginTop="@dimen/favorite_linear_margin"
+                android:paddingBottom="@dimen/favorite_linear_padding"
+                android:layout_alignParentBottom="true">
+
+                <ImageView
+                    android:layout_width="@dimen/favorite_img_size"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/favorite_star_spacing"
+                    android:src="@drawable/ic_search_solid" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="@dimen/favorite_star_spacing">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/favorite_linear_padding"
+                        android:layout_marginBottom="@dimen/favorite_linear_padding"
+                        android:text="@string/star_more_search"
+                        android:textStyle="bold"
+                        android:textSize="24sp"
+                        android:textColor="@color/colorBlack"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/favorite_linear_padding"
+                        android:text="@string/star_more_detail"
+                        android:textColor="@android:color/darker_gray"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/design_default_color_primary"
+                android:text="@string/search_name"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:onClick="moveStarFragment"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+
